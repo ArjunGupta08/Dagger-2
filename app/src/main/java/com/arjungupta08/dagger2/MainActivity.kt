@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
 
     // Field Injection
     @Inject
-    private lateinit var userRegistrationService : UserRegistrationService
+    lateinit var userRegistrationService : UserRegistrationService
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
