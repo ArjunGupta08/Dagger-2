@@ -3,9 +3,12 @@ package com.arjungupta08.dagger2
 import dagger.Module
 import dagger.Provides
 import javax.inject.Named
+import javax.inject.Singleton
 
 @Module
 class NotificationServiceModule {
+
+    @Singleton
     @MessageQualifier
     @Provides
     fun getMessageService(retryCount : Int) : NotificationService {
