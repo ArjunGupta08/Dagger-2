@@ -12,7 +12,7 @@ class EmailService @Inject constructor() : NotificationService{
     }
 }
 
-class MessageService @Inject constructor() : NotificationService {
+class MessageService @Inject constructor(private val retryCount : Int) : NotificationService {
     override fun send(to: String, from: String, body: String?) {
         Log.d(TAG, "Message Sent!")
     }
