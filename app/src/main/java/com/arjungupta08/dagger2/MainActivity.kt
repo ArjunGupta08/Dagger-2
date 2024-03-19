@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val appComponent = (application as UserApplication).appComponent
 
-        val userRegistrationComponent = appComponent.getUserRegistrationComponent()
+        val userRegistrationComponent = appComponent.getUserRegistrationComponentBuilder().retryCount(3).build()
         userRegistrationComponent.inject(this)
 
         userRegistrationService.registerUser("email@gmail.com", "123")
