@@ -6,3 +6,7 @@
 ![a](https://github.com/ArjunGupta08/Dagger-2/assets/85922120/e63696e1-52b3-4ac9-bf0b-3901767738d4)  |  ![b](https://github.com/ArjunGupta08/Dagger-2/assets/85922120/b3d4919f-3c5f-47bc-a6ca-d038bd9490d1)
 
 ![Screenshot 2024-03-16 222156](https://github.com/ArjunGupta08/Dagger-2/assets/85922120/f6496deb-3520-423e-98d3-bb443cecf5b1)
+
+  Dagger 2              |  Hilt
+:-------------------------:|:-------------------------:
+![a](https://github.com/ArjunGupta08/Dagger-2/assets/85922120/91fc4c40-2465-47c3-bee8-dfd0747c43b3)  |  ![b](https://github.com/ArjunGupta08/Dagger-2/assets/85922120/ba5c03d8-ffad-4e67-9fb5-2825848472b1)
